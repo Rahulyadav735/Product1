@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+</head>
+ <body>
+        <header class="header">
+            <div class="logo">
+                <img src="image copy 10.png" alt="Pink Flamingo Logo">
+                
+            </div>
+            <div class="delivery">
+                <span>Deliver to</span>
+                <strong>110094</strong>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for medication & Wellness products">
+            </div>
+            <div class="user-options">
+                <a href="#">Sign In / Sign Up</a>
+                <a href="#"><img src="image copy 11.png" alt="Cart" height="24"></a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav> 
+
+
+<!-- Product Section -->
+<div class="container product-section">
+    <div class="product-detail">
+        <div class="product-images">
+            <img src="image.png" alt="Product Image" id="mainImage">
+            <div class="product-thumbnails">
+                <img src="image copy.png" alt="Thumbnail 1" onclick="changeImage('product-thumb1.jpg')">
+                <img src="image copy 2.png" alt="Thumbnail 2" onclick="changeImage('product-thumb2.jpg')">
+                <img src="image copy 3.png" alt="Thumbnail 3" onclick="changeImage('product-thumb3.jpg')">
+            </div>
+        </div>
+        <div class="product-info">
+            <h1>Lavender Dhoop Cone Sticks Pack of 100</h1>
+            <p class="price"><span class="old-price">$6.00</span> $4.05</p>
+            <div class="quantity">
+                <button id="decrease">-</button>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="increase">+</button>
+            </div>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+            <div class="ok"><img src="image copy 81.png" alt=""></div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3>Description</h3>
+            <p>
+                Dhoop incense can be made from natural herbs and scented for long-lasting effects. 
+                Lavender crafted out of the finest quality ingredients, this leaves a magnificent and 
+                alluring fragrance and adds more to your spiritual time.
+            </p>
+            <h3>Product Information</h3>
+            <p>
+                Lavender Dhoop sticks activate your senses and relax the nerves, making you feel
+                fresh. They also aid in cleansing the air.
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3>Related Products</h3>
+            <div class="related-products d-flex justify-content-between">
+                <div class="card">
+                    <img src="image copy 4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Musk Incense Cones</h5>
+                        <p class="card-text">$0.75</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image copy 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sage Incense Cones</h5>
+                        <p class="card-text">$0.75</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image copy 6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yerba Santa Incense Cones</h5>
+                        <p class="card-text">$0.75</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image copy 7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frankincense and Myrrh</h5>
+                        <p class="card-text">$0.75</p>
+                        <a href="#" class="btn btn-primary">Out of Stock</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+</head>
+<body>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h6>Contact Us</h6>
+                <p>Demo Store</p>
+                <p>No. 1258 Utawala, Nairobi, 01010</p>
+                <p>Kenya</p>
+                <p>+2547010101010</p>
+                <p>example@gmail.com</p>
+            </div>
+            <div class="col-md-3">
+                <h6>Information</h6>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Refund Policy</a></p>
+                <p><a href="#">Shipping Policy</a></p>
+                <p><a href="#">Terms Of Service</a></p>
+                <p><a href="#">Blogs</a></p>
+            </div>
+            <div class="col-md-3">
+                <h6>Account</h6>
+                <p><a href="#">Search</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Faq</a></p>
+                <p><a href="#">Contact</a></p>
+                <p><a href="#">Help</a></p>
+            </div>
+            <div class="col-md-3">
+                <h6>Quick Links</h6>
+                <p><a href="#">Incense Sticks</a></p>
+                <p><a href="#">Shankh</a></p>
+                <p><a href="#">Kalash</a></p>
+                <p><a href="#">Incense Holders</a></p>
+                <p><a href="#">Cone Dhoop</a></p>
+            </div>
+            <div class="col-md-12 text-center mt-4">
+                <h6>Social Media</h6>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
